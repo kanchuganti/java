@@ -20,11 +20,4 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
-     pool:  
-  name: local 
-
-trigger: none 
-
-steps: 
-- script: echo Hello, world! 
-  displayName: 'Run a one-line script'
+    
